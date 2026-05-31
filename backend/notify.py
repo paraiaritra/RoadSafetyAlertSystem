@@ -1,13 +1,13 @@
 import os
 import time
+import json
 from typing import Optional
+from datetime import datetime
 from dotenv import load_dotenv
 
-# Load .env at import time so scripts that don't call load_dotenv() still pick up values.
 load_dotenv()
 
-# Note: read env values inside the send function to avoid stale values at module-import time.
-
+LOCAL_SMS_LOGS_PATH = os.path.join(os.path.dirname(__file__), "local_sms_logs.json")
 
 def _normalize_phone(phone: Optional[str]) -> Optional[str]:
     if not phone:
@@ -28,22 +28,63 @@ def _normalize_phone(phone: Optional[str]) -> Optional[str]:
 
 
 def send_twilio_sms(to_number: str, body: str) -> bool:
-    """Send SMS via Twilio. Returns True on success."""
-    # Re-read env vars in case they were set after module import
+    """Send SMS via Twilio or Fallback gracefully to offline Mock logging."""
     TWILIO_ACCOUNT_SID = os.getenv('TWILIO_ACCOUNT_SID')
     TWILIO_AUTH_TOKEN = os.getenv('TWILIO_AUTH_TOKEN')
     TWILIO_FROM_NUMBER = os.getenv('TWILIO_FROM_NUMBER')
+    
+    to_norm = _normalize_phone(to_number) or to_number
+
     if not (TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN and TWILIO_FROM_NUMBER):
-        print('[NOTIFY] Twilio credentials not set; skipping Twilio SMS')
-        return False
+        # MOCK Visual Box
+        print("┌──────────────────────────────────────────────────────────┐")
+        print(f"│ 📱 [MOCK SMS SENT TO: {to_norm:<20}]             │")
+        print("├──────────────────────────────────────────────────────────┤")
+        print(f"│ Msg: {body[:50]:<51} │")
+        if len(body) > 50:
+            print(f"│      {body[50:100]:<51} │")
+        print("└──────────────────────────────────────────────────────────┘")
+
+        try:
+            logs = []
+            if os.path.exists(LOCAL_SMS_LOGS_PATH):
+                with open(LOCAL_SMS_LOGS_PATH, 'r') as f:
+                    logs = json.load(f)
+            
+            logs.append({
+                "to_number": to_norm,
+                "body": body,
+                "timestamp": datetime.now().isoformat(),
+                "status": "MOCK_SENT"
+            })
+            
+            with open(LOCAL_SMS_LOGS_PATH, 'w') as f:
+                json.dump(logs, f, indent=2)
+        except Exception as e:
+            print(f"❌ [NOTIFY-MOCK] Failed to log offline SMS: {e}")
+
+        return True
+
     try:
         from twilio.rest import Client
         client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
-        to_norm = _normalize_phone(to_number)
         attempts = 2
         for i in range(attempts):
             try:
-                msg = client.messages.create(from_=TWILIO_FROM_NUMBER, to=to_norm, body=body)
+                # CRITICAL BULLETPROOF FIX:
+                # If from number starts with 'MG', treat it as a Messaging Service SID instead of standard sender
+                if TWILIO_FROM_NUMBER.startswith('MG'):
+                    msg = client.messages.create(
+                        messaging_service_sid=TWILIO_FROM_NUMBER, 
+                        to=to_norm, 
+                        body=body
+                    )
+                else:
+                    msg = client.messages.create(
+                        from_=TWILIO_FROM_NUMBER, 
+                        to=to_norm, 
+                        body=body
+                    )
                 print(f"[NOTIFY] Twilio SMS sent SID={msg.sid} to={to_norm}")
                 return True
             except Exception as e:
@@ -56,7 +97,7 @@ def send_twilio_sms(to_number: str, body: str) -> bool:
 
 
 def send_sms(to_number: Optional[str], body: str) -> bool:
-    """Send SMS using Twilio. Returns True on success, False otherwise."""
+    """Send SMS using Twilio or Mock Fallback."""
     if not to_number:
         print('[NOTIFY] No target phone provided for SMS')
         return False

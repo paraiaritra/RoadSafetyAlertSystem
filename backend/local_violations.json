@@ -18,5 +18,535 @@
     "driver_contact": "N/A",
     "owner_name": "N/A",
     "owner_contact": "N/A"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T20:59:29.018544",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T20:59:38.875406",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T20:59:50.691497",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T20:59:50.708730",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:04:41.663097",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:04:49.105969",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:04:56.060723",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:04:56.076299",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "truck",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:15:54.900591",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "truck",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:16:08.371825",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "WB 05 IJ 7890",
+    "vehicle_type": "car",
+    "speed": 47.7,
+    "violation_timestamp": "2026-05-27T21:16:12.738451",
+    "driver_name": "Biswajit Das",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Vikram Singh",
+    "owner_contact": "+91-5432109876"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 32.5,
+    "violation_timestamp": "2026-05-27T21:16:21.713390",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "WB 05 IJ 7890",
+    "vehicle_type": "car",
+    "speed": 72.8,
+    "violation_timestamp": "2026-05-27T21:16:24.432481",
+    "driver_name": "Biswajit Das",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Vikram Singh",
+    "owner_contact": "+91-5432109876"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "bus",
+    "speed": 32.5,
+    "violation_timestamp": "2026-05-27T21:16:30.311042",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 32.5,
+    "violation_timestamp": "2026-05-27T21:16:30.976528",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "TN 04 GH 3456",
+    "vehicle_type": "car",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:16:33.742823",
+    "driver_name": "Lakshmi Pillai",
+    "driver_contact": "+91-6544567890",
+    "owner_name": "Anita Desai",
+    "owner_contact": "+91-6543210987"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "truck",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:16:33.985005",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "WB 05 IJ 7890",
+    "vehicle_type": "car",
+    "speed": 47.7,
+    "violation_timestamp": "2026-05-27T21:16:34.005122",
+    "driver_name": "Biswajit Das",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Vikram Singh",
+    "owner_contact": "+91-5432109876"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 32.5,
+    "violation_timestamp": "2026-05-27T21:16:34.018838",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "truck",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:16:34.032633",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "WB 05 IJ 7890",
+    "vehicle_type": "car",
+    "speed": 72.8,
+    "violation_timestamp": "2026-05-27T21:16:34.045472",
+    "driver_name": "Biswajit Das",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Vikram Singh",
+    "owner_contact": "+91-5432109876"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "bus",
+    "speed": 32.5,
+    "violation_timestamp": "2026-05-27T21:16:34.057540",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 32.5,
+    "violation_timestamp": "2026-05-27T21:16:34.072131",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:27:03.063682",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:27:19.594941",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "WB 05 IJ 7890",
+    "vehicle_type": "bus",
+    "speed": 48.7,
+    "violation_timestamp": "2026-05-27T21:27:23.317603",
+    "driver_name": "Biswajit Das",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Vikram Singh",
+    "owner_contact": "+91-5432109876"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 32.5,
+    "violation_timestamp": "2026-05-27T21:27:25.071295",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:27:31.145233",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "WB 05 IJ 7890",
+    "vehicle_type": "bus",
+    "speed": 48.7,
+    "violation_timestamp": "2026-05-27T21:27:31.161469",
+    "driver_name": "Biswajit Das",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Vikram Singh",
+    "owner_contact": "+91-5432109876"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 32.5,
+    "violation_timestamp": "2026-05-27T21:27:31.169256",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:27:31.181946",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "KA 03 EF 9012",
+    "vehicle_type": "bus",
+    "speed": 57.5,
+    "violation_timestamp": "2026-05-27T21:32:02.365773",
+    "driver_name": "Mahesh Gowda",
+    "driver_contact": "+91-7653456789",
+    "owner_name": "Suresh Patel",
+    "owner_contact": "+91-7654321098"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "bus",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:32:14.127119",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "KA 03 EF 9012",
+    "vehicle_type": "bus",
+    "speed": 72.2,
+    "violation_timestamp": "2026-05-27T21:32:14.693025",
+    "driver_name": "Mahesh Gowda",
+    "driver_contact": "+91-7653456789",
+    "owner_name": "Suresh Patel",
+    "owner_contact": "+91-7654321098"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "bus",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:32:29.165341",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "WB 05 IJ 7890",
+    "vehicle_type": "car",
+    "speed": 69.1,
+    "violation_timestamp": "2026-05-27T21:32:31.624812",
+    "driver_name": "Biswajit Das",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Vikram Singh",
+    "owner_contact": "+91-5432109876"
+  },
+  {
+    "plate": "KA 03 EF 9012",
+    "vehicle_type": "bus",
+    "speed": 57.5,
+    "violation_timestamp": "2026-05-27T21:32:34.946419",
+    "driver_name": "Mahesh Gowda",
+    "driver_contact": "+91-7653456789",
+    "owner_name": "Suresh Patel",
+    "owner_contact": "+91-7654321098"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "bus",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:32:34.965755",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "WB 05 IJ 7890",
+    "vehicle_type": "car",
+    "speed": 69.1,
+    "violation_timestamp": "2026-05-27T21:32:34.981352",
+    "driver_name": "Biswajit Das",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Vikram Singh",
+    "owner_contact": "+91-5432109876"
+  },
+  {
+    "plate": "KA 03 EF 9012",
+    "vehicle_type": "bus",
+    "speed": 72.2,
+    "violation_timestamp": "2026-05-27T21:32:34.995862",
+    "driver_name": "Mahesh Gowda",
+    "driver_contact": "+91-7653456789",
+    "owner_name": "Suresh Patel",
+    "owner_contact": "+91-7654321098"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "bus",
+    "speed": 50.0,
+    "violation_timestamp": "2026-05-27T21:32:35.007242",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "bus",
+    "speed": 35.0,
+    "violation_timestamp": "2026-05-27T21:37:50.392746",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "bus",
+    "speed": 35.0,
+    "violation_timestamp": "2026-05-27T21:38:04.962175",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "TN 04 GH 3456",
+    "vehicle_type": "car",
+    "speed": 45.1,
+    "violation_timestamp": "2026-05-27T21:38:08.938324",
+    "driver_name": "Lakshmi Pillai",
+    "driver_contact": "+91-6544567890",
+    "owner_name": "Anita Desai",
+    "owner_contact": "+91-6543210987"
+  },
+  {
+    "plate": "TN 04 GH 3456",
+    "vehicle_type": "car",
+    "speed": 37.6,
+    "violation_timestamp": "2026-05-27T21:38:20.640735",
+    "driver_name": "Lakshmi Pillai",
+    "driver_contact": "+91-6544567890",
+    "owner_name": "Anita Desai",
+    "owner_contact": "+91-6543210987"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 35.0,
+    "violation_timestamp": "2026-05-27T21:38:20.721966",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 35.0,
+    "violation_timestamp": "2026-05-27T21:38:42.366746",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "bus",
+    "speed": 35.0,
+    "violation_timestamp": "2026-05-27T21:38:53.469052",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "TN 04 GH 3456",
+    "vehicle_type": "car",
+    "speed": 45.1,
+    "violation_timestamp": "2026-05-27T21:38:53.497206",
+    "driver_name": "Lakshmi Pillai",
+    "driver_contact": "+91-6544567890",
+    "owner_name": "Anita Desai",
+    "owner_contact": "+91-6543210987"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 35.0,
+    "violation_timestamp": "2026-05-27T21:38:53.510095",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "bus",
+    "speed": 35.0,
+    "violation_timestamp": "2026-05-27T21:38:53.523260",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
+  },
+  {
+    "plate": "TN 04 GH 3456",
+    "vehicle_type": "car",
+    "speed": 37.6,
+    "violation_timestamp": "2026-05-27T21:38:53.537176",
+    "driver_name": "Lakshmi Pillai",
+    "driver_contact": "+91-6544567890",
+    "owner_name": "Anita Desai",
+    "owner_contact": "+91-6543210987"
+  },
+  {
+    "plate": "MH 01 AB 1234",
+    "vehicle_type": "car",
+    "speed": 35.0,
+    "violation_timestamp": "2026-05-27T21:38:53.553876",
+    "driver_name": "Ramesh Yadav",
+    "driver_contact": "+91-8926994446",
+    "owner_name": "Rajesh Kumar",
+    "owner_contact": "+91-9876543210"
   }
 ]
